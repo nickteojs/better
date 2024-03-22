@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Better",
+  "name": "Better - A Minimalist Homepage",
   "description": "A minimalist homepage extension with a todo list feature.",
-  "version": "1.0",
+  "version": "1.1",
   "chrome_url_overrides" : {
     "newtab": "index.html"
   },

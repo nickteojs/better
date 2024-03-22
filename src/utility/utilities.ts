@@ -1,5 +1,14 @@
 import { Todo } from "../types/types";
 
+export const fetchTheme = () => {
+  const theme: string | null = localStorage.getItem("theme");
+  if (theme) {
+    return JSON.parse(theme)
+  } else {
+    return false;
+  }
+}
+
 export const fetchTodos = (type: string) => {
   const todoList: string | null = localStorage.getItem("todo");
   const dailyList: string | null = localStorage.getItem("dailies"); 
